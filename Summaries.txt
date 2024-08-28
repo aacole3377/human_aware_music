@@ -1,0 +1,24 @@
+A Style-Specific Music Composition Neural Network ---
+
+	The idea of this paper is to find a way to automate music production so that non-professionals can more efficiently create music without having to deal with the cost of hiring a professional musician. Often times music created by a professional will not meet personalized needs for what the client needs. The music generated is style specific including pop, jazz, rock, classical, etc. Random generation composition, rule-based knowledge system composition, mathematic-based composition, music grammar composition, and genetic algorithm composition are the primary components of intelligent composition. However, while these methods can meet the basic needs, they do not create a rich enough style of music to be generally acceptable. The style-specific Music Composition is based on reinforcement learning. The results show that 90% of samples generated are qualified and 30% meet peoples actual requirements for music.
+
+Artificial Intelligence & Popular Music: SKYGGE, Flow Machines, and the Audio Uncanny Valley --- 
+
+	This paper gives an overview of the first AI-human collaborated album called "Hello World". This album is being created with Sony's For Machine technologies. These Flow Machines are also responsible for creating a popular track called "Daddy's Car" which is in the style of the Beatles. These machines are designed with the idea of encouraging "flow" for the music producer. The models behind these machines are generative models. It is also proposed that while these melodies lack the spirit of a human being, they could be the new style of the future of AI generated music as the melodies are very similar to many top 40 hits.
+
+Machine learning research that matters for music creation: A case study ---
+
+	The question in this paper is, how much does all of the research being done in using machine learning in music actually matter? While models can be created that have a high amount of accuracy, how useful are they really in the real world? The author proposes two principles that make machine learning in music matter. 1) Measure the concrete impact of the application of machine learning with partitioners in the originating problem domain. 2) With the results from the first principle, improve the particular application of machine learning, the definition of the problem, and the domain of machine learning in general. The idea is to go beyond evaluations of the results and go straight to a composition-to-public-concert pipeline.
+
+Jukebox: A Generative Model for Music --- 
+
+	This model generates raw music that imitates styles and artists. Something unique about this model is that it does it all parts of the music composition. Often times machine learning in music is one component of the creative process of music production. This model even creates vocal tracks that sound human and are in the style of the artist or genre desired. The models used are mainly conditional generative models. This model is capable of creating songs that are minutes long, unlike many other models.
+
+RL-Duet: Online Music Accompaniment Generation Using Deep Reinforcement Learning --- 
+
+	This paper is about a deep reinforcement algorithm designed to accompany a human being in music generation. It also has potential for music improvisation. This is framed as a reinforcement learning problem where a note is generated based on the pervious state. This model considers the probability of the generated note against the machine generated context as well as the human generated context. There are two training stages in the model. First the reward model which is trained with maximum likelihood estimation. Then the generation model that is trained with the reinforcement learning for 100k training duets. The training sets are monophonic and polyphonic. Experiments show that the model can respond in a timely fashion which is impressive considering how quickly a response can be required in a response setting.
+
+Modeling Self-Repetition in Music Generation using Generative Adversarial Networks
+	
+	This paper is about a generative adversarial model for music generation with a focus on self-repetition. Music composition often contains some amount of repetition throughout a piece. This model explicitly focuses on repetition. A self-similarity matrix is constructed by computing similarity between pairs of measures and then used in composition. By representing measures in a continuous space, this model may be able to learn some of the more complex nuances in composition. The results were rated on a scale of 1-5 for overall quality. The dataset with the highest success rate (64%) was a collection of 1200 British and American folk tunes with over 176k notes.
+
